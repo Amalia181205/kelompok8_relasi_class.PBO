@@ -8,10 +8,12 @@ public class Main {
         // Studio 1
         Studio studio1 = new Studio("Studio 1");
         studio1.tambahFilm("Rangga Dan Cinta", 119);
+        studio1.tambahFilm("Komang", 107);
 
         // Studio 2
         Studio studio2 = new Studio("Studio 2");
         studio2.tambahFilm("Gundik", 112);
+        studio2.tambahFilm("Jangan Panggil Mamah Kafir", 110);
 
         // Tambahkan studio ke bioskop
         bioskop.tambahStudio(studio1);
